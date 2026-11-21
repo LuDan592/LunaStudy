@@ -1,0 +1,19 @@
+{
+  "name": "lunastudy",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "check": "node scripts/check-content.mjs",
+    "build": "node scripts/check-content.mjs && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "js-yaml": "^5.5.0",
+    "marked": "^18.2.1"
+  }
+}

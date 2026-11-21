@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+进度.md
+.cc-handoff/
+# 课件原文件不入库（仓库是公开的）
+*.pdf
+*.ppt
+*.pptx
+*.key
+*.doc
+*.docx
+课件原件/
